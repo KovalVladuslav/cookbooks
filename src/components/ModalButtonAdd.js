@@ -19,7 +19,7 @@ const ModalBlock = ({
   open,
   handleClose}) => {
   const [time, changeTime] = useState(0)
-  const [name, changeName] = useState(0)
+  const [name, changeName] = useState('')
   const [newIngridients, changeIngredients] = useState([])
   const [recipe, changeRecipe] = useState()
   const [img, setImage] = useState()
