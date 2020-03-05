@@ -1,0 +1,61 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: rgb(215, 232, 253)
+}
+
+.MuiContainer-root {
+  padding: 20px;
+}
+
+.MuiPagination-root {
+  margin: 0 auto;
+}
+
+.inputForm{
+  width: 250px;
+}
+
+.MuiFormHelperText-root {
+  position: absolute;
+  top: 45px;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat:no-repeat;
+  width:5px;
+  height:0px
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: none
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#5192f3;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+  background-color:#1c6eeb;
+  }
+  
+  ::-webkit-resizer{
+  background-repeat:no-repeat;
+  width:4px;
+  height:0px;
+  }
+  
+  ::-webkit-scrollbar{
+  width: 4px;
+  }
+
+  .title_dish {
+    font-family: 'Pacifico', cursive;
+    display: block;
+    height: 70px;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    top: 52px;
+  }

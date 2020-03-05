@@ -1,1 +1,1 @@
-# cookbooks
+[https://boom40.github.io/cookbooks]
